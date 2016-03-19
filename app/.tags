@@ -1,0 +1,825 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+APP_DIR	webroot/index.php	/^	define('APP_DIR', basename(dirname(dirname(__FILE__))));$/;"	d
+APP_DIR	webroot/test.php	/^	define('APP_DIR', basename(dirname(dirname(__FILE__))));$/;"	d
+AllMigrationsPluginTest	Plugin/Migrations/Test/Case/AllMigrationsTest.php	/^class AllMigrationsPluginTest extends PHPUnit_Framework_TestSuite {$/;"	c
+AnotherMigrationPluginTestMigration	Plugin/Migrations/Test/test_app/Plugin/TestMigrationPlugin/Config/Migration/002_another_migration_plugin_test_migration.php	/^class AnotherMigrationPluginTestMigration extends CakeMigration {$/;"	c
+AppController	Controller/AppController.php	/^class AppController extends Controller {$/;"	c
+AppHelper	View/Helper/AppHelper.php	/^class AppHelper extends Helper {$/;"	c
+AppModel	Model/AppModel.php	/^class AppModel extends Model {$/;"	c
+AppSchema	Config/Schema/schema.php	/^class AppSchema extends CakeSchema {$/;"	c
+AppShell	Console/Command/AppShell.php	/^class AppShell extends Shell {$/;"	c
+CAKE_CORE_INCLUDE_PATH	webroot/index.php	/^	define('CAKE_CORE_INCLUDE_PATH', $vendorPath);$/;"	d
+CAKE_CORE_INCLUDE_PATH	webroot/test.php	/^	define('CAKE_CORE_INCLUDE_PATH', $vendorPath);$/;"	d
+CakeMigration	Plugin/Migrations/Lib/CakeMigration.php	/^class CakeMigration extends Object {$/;"	c
+CakeMigration	Plugin/Migrations/Test/Case/Lib/MigrationVersionTest.php	/^		$CakeMigration = new CakeMigration($options);$/;"	v
+CakeMigrationTest	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^class CakeMigrationTest extends CakeTestCase {$/;"	c
+Contact	Model/Contact.php	/^class Contact extends AppModel{$/;"	c
+ContactsController	Controller/ContactsController.php	/^class ContactsController extends AppController$/;"	c
+ConvertVersionToClassNames	Plugin/Migrations/Config/Migration/002_convert_version_to_class_names.php	/^class ConvertVersionToClassNames extends CakeMigration {$/;"	c
+CreateCakephpForm	Config/Migration/1457750313_create_cakephp_form.php	/^class CreateCakephpForm extends CakeMigration {$/;"	c
+CreateContacts	Config/Migration/1457751902_create_contacts.php	/^class CreateContacts extends CakeMigration {$/;"	c
+DATABASE_CONFIG	Config/database.php	/^class DATABASE_CONFIG {$/;"	c
+DS	Console/cake.php	/^	define('DS', DIRECTORY_SEPARATOR);$/;"	d
+DS	webroot/index.php	/^	define('DS', DIRECTORY_SEPARATOR);$/;"	d
+DS	webroot/test.php	/^	define('DS', DIRECTORY_SEPARATOR);$/;"	d
+DbAclSchema	Config/Schema/db_acl.php	/^class DbAclSchema extends CakeSchema {$/;"	c
+Dispatcher	webroot/index.php	/^$Dispatcher = new Dispatcher();$/;"	v
+File	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$File = new File($this->path . $version . '_' . strtolower($name) . '.php', true);$/;"	v
+I18nSchema	Config/Schema/i18n.php	/^class I18nSchema extends CakeSchema {$/;"	c
+IncreaseClassNameLength	Plugin/Migrations/Config/Migration/003_increase_class_name_length.php	/^class IncreaseClassNameLength extends CakeMigration {$/;"	c
+InitMigrations	Plugin/Migrations/Config/Migration/001_init_migrations.php	/^class InitMigrations extends CakeMigration {$/;"	c
+M4af6d40056b04408808500cb58157726	Plugin/Migrations/Test/test_app/Plugin/TestMigrationPlugin/Config/Migration/001_schema_dump.php	/^class M4af6d40056b04408808500cb58157726 extends CakeMigration {$/;"	c
+Migration	Plugin/Migrations/Lib/CakeMigration.php	/^		$this->Migration = $Migration;$/;"	v
+Migration	Plugin/Migrations/Lib/CakeMigration.php	/^	public $Migration;$/;"	v
+Migration	Plugin/Migrations/Test/Case/Lib/Migration/PrecheckConditionTest.php	/^		$Migration = new TestPrecheckCakeMigration(array($/;"	v
+MigrationException	Plugin/Migrations/Lib/CakeMigration.php	/^class MigrationException extends Exception {$/;"	c
+MigrationShell	Plugin/Migrations/Console/Command/MigrationShell.php	/^class MigrationShell extends AppShell {$/;"	c
+MigrationShellTest	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^class MigrationShellTest extends CakeTestCase {$/;"	c
+MigrationVersion	Plugin/Migrations/Lib/MigrationVersion.php	/^class MigrationVersion {$/;"	c
+MigrationVersionException	Plugin/Migrations/Lib/MigrationVersion.php	/^class MigrationVersionException extends Exception {$/;"	c
+MigrationVersionTest	Plugin/Migrations/Test/Case/Lib/MigrationVersionTest.php	/^class MigrationVersionTest extends CakeTestCase {$/;"	c
+MigrationsPanel	Plugin/Migrations/Lib/Panel/MigrationsPanel.php	/^class MigrationsPanel extends DebugPanel {$/;"	c
+MigrationsShell	Plugin/Migrations/Console/Command/MigrationsShell.php	/^class MigrationsShell extends MigrationShell {}$/;"	c
+Model	Plugin/Migrations/Test/Case/Lib/Migration/PrecheckConditionTest.php	/^		$Model = new Model(array('table' => 'posts', 'ds' => 'test'));$/;"	v
+PagesController	Controller/PagesController.php	/^class PagesController extends AppController {$/;"	c
+Precheck	Plugin/Migrations/Lib/CakeMigration.php	/^			$this->Precheck = new $class();$/;"	v
+Precheck	Plugin/Migrations/Lib/CakeMigration.php	/^			$this->Precheck = new PrecheckException();$/;"	v
+Precheck	Plugin/Migrations/Lib/CakeMigration.php	/^	public $Precheck = null;$/;"	v
+PrecheckBase	Plugin/Migrations/Lib/Migration/PrecheckBase.php	/^abstract class PrecheckBase {$/;"	c
+PrecheckCondition	Plugin/Migrations/Lib/Migration/PrecheckCondition.php	/^class PrecheckCondition extends PrecheckBase {$/;"	c
+PrecheckConditionTest	Plugin/Migrations/Test/Case/Lib/Migration/PrecheckConditionTest.php	/^class PrecheckConditionTest extends CakeTestCase {$/;"	c
+PrecheckException	Plugin/Migrations/Lib/Migration/PrecheckException.php	/^class PrecheckException extends PrecheckBase {$/;"	c
+ROOT	webroot/index.php	/^	define('ROOT', dirname(dirname(dirname(__FILE__))));$/;"	d
+ROOT	webroot/test.php	/^	define('ROOT', dirname(dirname(dirname(__FILE__))));$/;"	d
+Schema	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$this->Schema = $this->_getSchema();$/;"	v
+Schema	Plugin/Migrations/Lib/CakeMigration.php	/^		$this->Schema = new CakeSchema(array('connection' => $this->connection));$/;"	v
+Schema	Plugin/Migrations/Lib/CakeMigration.php	/^	public $Schema = null;$/;"	v
+Schema	Plugin/Migrations/Test/Case/Lib/MigrationVersionTest.php	/^		$Schema = new CakeSchema(array('connection' => 'test'));$/;"	v
+SchemaMigration	Plugin/Migrations/Model/SchemaMigration.php	/^class SchemaMigration extends Model {$/;"	c
+SchemaMigrationsFixture	Plugin/Migrations/Test/Fixture/SchemaMigrationsFixture.php	/^class SchemaMigrationsFixture extends CakeTestFixture {$/;"	c
+SessionsSchema	Config/Schema/sessions.php	/^class SessionsSchema extends CakeSchema {$/;"	c
+Shell	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$this->Shell = $this->getMock($/;"	v
+TestCakeMigration	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^class TestCakeMigration extends CakeMigration {$/;"	c
+TestCallbackCakeMigration	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^class TestCallbackCakeMigration {$/;"	c
+TestMigrationPlugin4Schema	Plugin/Migrations/Test/test_app/Plugin/TestMigrationPlugin4/Config/Schema/schema.php	/^class TestMigrationPlugin4Schema extends CakeSchema {$/;"	c
+TestMigrationPluginSchema	Plugin/Migrations/Test/test_app/Plugin/TestMigrationPlugin/Config/Schema/Schema.php	/^class TestMigrationPluginSchema extends CakeSchema {$/;"	c
+TestMigrationShell	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^class TestMigrationShell extends MigrationShell {$/;"	c
+TestPrecheckCakeMigration	Plugin/Migrations/Test/Case/Lib/Migration/PrecheckConditionTest.php	/^class TestPrecheckCakeMigration extends CakeMigration {$/;"	c
+Version	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$this->Version = new MigrationVersion($options);$/;"	v
+Version	Plugin/Migrations/Console/Command/MigrationShell.php	/^	public $Version;$/;"	v
+Version	Plugin/Migrations/Lib/CakeMigration.php	/^	public $Version = null;$/;"	v
+Version	Plugin/Migrations/Lib/MigrationVersion.php	/^		$this->Version = ClassRegistry::init(array($/;"	v
+Version	Plugin/Migrations/Lib/MigrationVersion.php	/^	public $Version;$/;"	v
+Version	Plugin/Migrations/Test/Case/Lib/MigrationVersionTest.php	/^		$Version = $this->getMock('MigrationVersion',$/;"	v
+Version	Plugin/Migrations/Test/Case/Lib/MigrationVersionTest.php	/^		$this->Version = $this->getMock('MigrationVersion', array('getMapping'), array(array('connection' => 'test')));$/;"	v
+Version	Plugin/Migrations/Test/Case/Lib/MigrationVersionTest.php	/^		$this->Version = new MigrationVersion(array($/;"	v
+Version	Plugin/Migrations/Test/Case/Lib/MigrationVersionTest.php	/^		$this->Version = new MigrationVersion(array('connection' => 'test', 'migrationConnection' => 'test'));$/;"	v
+Version	Plugin/Migrations/Test/Case/Lib/MigrationVersionTest.php	/^	public $Version;$/;"	v
+WEBROOT_DIR	webroot/index.php	/^	define('WEBROOT_DIR', basename(dirname(__FILE__)));$/;"	d
+WEBROOT_DIR	webroot/test.php	/^	define('WEBROOT_DIR', basename(dirname(__FILE__)));$/;"	d
+WWW_ROOT	webroot/index.php	/^	define('WWW_ROOT', dirname(__FILE__) . DS);$/;"	d
+WWW_ROOT	webroot/test.php	/^	define('WWW_ROOT', dirname(__FILE__) . DS);$/;"	d
+__construct	Plugin/Migrations/Lib/CakeMigration.php	/^	public function __construct($Migration, $message = '', $code = 0) {$/;"	f
+__construct	Plugin/Migrations/Lib/CakeMigration.php	/^	public function __construct($options = array()) {$/;"	f
+__construct	Plugin/Migrations/Lib/MigrationVersion.php	/^	public function __construct($options = array()) {$/;"	f
+_alterIndexes	Plugin/Migrations/Lib/CakeMigration.php	/^	protected function _alterIndexes($indexes, $type, $table) {$/;"	f
+_alterTable	Plugin/Migrations/Lib/CakeMigration.php	/^	protected function _alterTable($type, $tables) {$/;"	f
+_clearCache	Plugin/Migrations/Lib/CakeMigration.php	/^	protected function _clearCache() {$/;"	f
+_connectionNamesEnum	Plugin/Migrations/Console/Command/MigrationShell.php	/^	protected function _connectionNamesEnum() {$/;"	f
+_createTable	Plugin/Migrations/Lib/CakeMigration.php	/^	protected function _createTable($type, $tables) {$/;"	f
+_dropTable	Plugin/Migrations/Lib/CakeMigration.php	/^	protected function _dropTable($type, $tables) {$/;"	f
+_enumerateMigrations	Plugin/Migrations/Lib/MigrationVersion.php	/^	protected function _enumerateMigrations($type) {$/;"	f
+_enumerateNewMigrations	Plugin/Migrations/Lib/MigrationVersion.php	/^	protected function _enumerateNewMigrations($type) {$/;"	f
+_enumerateOldMigrations	Plugin/Migrations/Lib/MigrationVersion.php	/^	protected function _enumerateOldMigrations($type) {$/;"	f
+_execute	Plugin/Migrations/Console/Command/MigrationShell.php	/^	protected function _execute($options, $once) {$/;"	f
+_fieldNamesArray	Plugin/Migrations/Console/Command/MigrationShell.php	/^	protected function _fieldNamesArray($fields) {$/;"	f
+_finalizeGeneratedMigration	Plugin/Migrations/Console/Command/MigrationShell.php	/^	protected function _finalizeGeneratedMigration(&$migration, &$migrationName, &$fromSchema) {$/;"	f
+_findSchemaFile	Plugin/Migrations/Console/Command/MigrationShell.php	/^	protected function _findSchemaFile($folder, $schema_files, $name) {$/;"	f
+_fromComparison	Plugin/Migrations/Console/Command/MigrationShell.php	/^	protected function _fromComparison($migration, $comparison, $oldTables, $currentTables) {$/;"	f
+_generateDump	Plugin/Migrations/Console/Command/MigrationShell.php	/^	protected function _generateDump(&$migration) {$/;"	f
+_generateFromCliArgs	Plugin/Migrations/Console/Command/MigrationShell.php	/^	protected function _generateFromCliArgs(&$migration, &$migrationName, &$comparison) {$/;"	f
+_generateFromComparison	Plugin/Migrations/Console/Command/MigrationShell.php	/^	protected function _generateFromComparison(&$migration, &$oldSchema, &$comparison) {$/;"	f
+_generateFromInverseComparison	Plugin/Migrations/Console/Command/MigrationShell.php	/^	protected function _generateFromInverseComparison(&$migration, &$oldSchema, &$comparison) {$/;"	f
+_generateMigration	Plugin/Migrations/Console/Command/MigrationShell.php	/^	protected function _generateMigration($name, $class, $migration) {$/;"	f
+_generateTemplate	Plugin/Migrations/Console/Command/MigrationShell.php	/^	protected function _generateTemplate($template, $vars) {$/;"	f
+_getFieldType	Plugin/Migrations/Console/Command/MigrationShell.php	/^	protected function _getFieldType($field, $type, $validTypes) {$/;"	f
+_getMigrationVariable	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^	protected function _getMigrationVariable($file) {$/;"	f
+_getPath	Plugin/Migrations/Console/Command/MigrationShell.php	/^	protected function _getPath($type = null) {$/;"	f
+_getSchema	Plugin/Migrations/Console/Command/MigrationShell.php	/^	protected function _getSchema($type = null) {$/;"	f
+_getSchemaClassName	Plugin/Migrations/Console/Command/MigrationShell.php	/^	protected function _getSchemaClassName($name = null, $suffix = true) {$/;"	f
+_initMigrations	Plugin/Migrations/Lib/MigrationVersion.php	/^	protected function _initMigrations() {$/;"	f
+_invokeCallbacks	Plugin/Migrations/Lib/CakeMigration.php	/^	protected function _invokeCallbacks($callback, $type, $data = array()) {$/;"	f
+_invokePrecheck	Plugin/Migrations/Lib/CakeMigration.php	/^	protected function _invokePrecheck($callback, $type, $data = array()) {$/;"	f
+_loadFile	Plugin/Migrations/Lib/MigrationVersion.php	/^	protected function _loadFile($name, $type) {$/;"	f
+_mapping	Plugin/Migrations/Lib/MigrationVersion.php	/^	protected $_mapping = array();$/;"	v
+_mapping	Plugin/Migrations/Test/Case/Lib/MigrationVersionTest.php	/^	protected function _mapping($start = 0, $end = 0) {$/;"	f
+_messages	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$this->_messages = array($/;"	v
+_messages	Plugin/Migrations/Console/Command/MigrationShell.php	/^	protected $_messages = array();$/;"	v
+_migration	Plugin/Migrations/Lib/Migration/PrecheckBase.php	/^		$this->_migration = $migration;$/;"	v
+_migration	Plugin/Migrations/Lib/Migration/PrecheckBase.php	/^	protected $_migration;$/;"	v
+_migrationChanges	Plugin/Migrations/Console/Command/MigrationShell.php	/^	protected function _migrationChanges($migration) {$/;"	f
+_outputLog	Plugin/Migrations/Console/Command/MigrationShell.php	/^	protected function _outputLog($log) {$/;"	f
+_overwriteSchema	Plugin/Migrations/Console/Command/MigrationShell.php	/^	protected function _overwriteSchema() {$/;"	f
+_parseCommandLineFields	Plugin/Migrations/Console/Command/MigrationShell.php	/^	protected function _parseCommandLineFields($name) {$/;"	f
+_parseSingleCommandLineField	Plugin/Migrations/Console/Command/MigrationShell.php	/^	protected function _parseSingleCommandLineField(&$fields, &$indexes, $field, $validTypes) {$/;"	f
+_promptForMigrationName	Plugin/Migrations/Console/Command/MigrationShell.php	/^	protected function _promptForMigrationName() {$/;"	f
+_promptVersionOptions	Plugin/Migrations/Console/Command/MigrationShell.php	/^	protected function _promptVersionOptions($mapping, $latestVersion) {$/;"	f
+_readSchema	Plugin/Migrations/Console/Command/MigrationShell.php	/^	protected function _readSchema() {$/;"	f
+_renameTable	Plugin/Migrations/Lib/CakeMigration.php	/^	protected function _renameTable($type, $tables) {$/;"	f
+_run	Plugin/Migrations/Lib/CakeMigration.php	/^	protected function _run() {$/;"	f
+_showInfo	Plugin/Migrations/Console/Command/MigrationShell.php	/^	protected function _showInfo($mapping, $type = null) {$/;"	f
+_singleStepOptions	Plugin/Migrations/Console/Command/MigrationShell.php	/^	protected function _singleStepOptions($mapping, $latestVersion, $default = array()) {$/;"	f
+_startMigrationConnection	Plugin/Migrations/Console/Command/MigrationShell.php	/^	protected function _startMigrationConnection() {$/;"	f
+_unlink	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^	protected function _unlink($files) {$/;"	f
+_updateSchema	Plugin/Migrations/Console/Command/MigrationShell.php	/^	protected function _updateSchema() {$/;"	f
+_values	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$_values = array();$/;"	v
+_values	Plugin/Migrations/Console/Command/MigrationShell.php	/^	protected function _values($values) {$/;"	f
+_writeMigration	Plugin/Migrations/Console/Command/MigrationShell.php	/^	protected function _writeMigration($name, $version, $migration) {$/;"	f
+acos	Config/Schema/db_acl.php	/^	public $acos = array($/;"	v
+acos	Config/Schema/db_acl.sql	/^CREATE TABLE acos ($/;"	t
+acos.alias	Config/Schema/db_acl.sql	/^  foreign_key INTEGER(10) UNSIGNED DEFAULT NULL,$/;"	F
+acos.foreign_key	Config/Schema/db_acl.sql	/^  model VARCHAR(255) DEFAULT '',$/;"	F
+acos.id	Config/Schema/db_acl.sql	/^CREATE TABLE acos ($/;"	F
+acos.lft	Config/Schema/db_acl.sql	/^  alias VARCHAR(255) DEFAULT '',$/;"	F
+acos.model	Config/Schema/db_acl.sql	/^  parent_id INTEGER(10) DEFAULT NULL,$/;"	F
+acos.parent_id	Config/Schema/db_acl.sql	/^  id INTEGER(10) UNSIGNED NOT NULL AUTO_INCREMENT,$/;"	F
+acos.rght	Config/Schema/db_acl.sql	/^  lft INTEGER(10) DEFAULT NULL,$/;"	F
+action	Plugin/Migrations/Console/Command/MigrationShell.php	/^			$action = $matches[1] . '_table';$/;"	v
+action	Plugin/Migrations/Console/Command/MigrationShell.php	/^			$action = 'create_field';$/;"	v
+action	Plugin/Migrations/Console/Command/MigrationShell.php	/^			$action = 'drop_field';$/;"	v
+action	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$action = $cli['action'];$/;"	v
+action	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$action = null;$/;"	v
+after	Config/Migration/1457750313_create_cakephp_form.php	/^	public function after($direction) {$/;"	f
+after	Config/Migration/1457751902_create_contacts.php	/^	public function after($direction) {$/;"	f
+after	Config/Schema/db_acl.php	/^	public function after($event = array()) {$/;"	f
+after	Config/Schema/i18n.php	/^	public function after($event = array()) {$/;"	f
+after	Config/Schema/schema.php	/^	public function after($event = array()) {$/;"	f
+after	Config/Schema/sessions.php	/^	public function after($event = array()) {$/;"	f
+after	Plugin/Migrations/Config/Migration/001_init_migrations.php	/^	public function after($direction) {$/;"	f
+after	Plugin/Migrations/Config/Migration/002_convert_version_to_class_names.php	/^	public function after($direction) {$/;"	f
+after	Plugin/Migrations/Config/Migration/003_increase_class_name_length.php	/^	public function after($direction) {$/;"	f
+after	Plugin/Migrations/Lib/CakeMigration.php	/^	public function after($direction) {$/;"	f
+after	Plugin/Migrations/Test/test_app/Plugin/TestMigrationPlugin/Config/Migration/001_schema_dump.php	/^	public function after($direction) {$/;"	f
+after	Plugin/Migrations/Test/test_app/Plugin/TestMigrationPlugin/Config/Migration/002_another_migration_plugin_test_migration.php	/^	public function after($direction) {$/;"	f
+after	Plugin/Migrations/Test/test_app/Plugin/TestMigrationPlugin/Config/Schema/Schema.php	/^	public function after($event = array()) {$/;"	f
+after	Plugin/Migrations/Test/test_app/Plugin/TestMigrationPlugin4/Config/Schema/schema.php	/^	public function after($event = array()) {$/;"	f
+afterAction	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^	public function afterAction(&$Migration, $type, $data) {$/;"	f
+afterMigration	Plugin/Migrations/Console/Command/MigrationShell.php	/^	public function afterMigration(&$Migration, $direction) {$/;"	f
+afterMigration	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^	public function afterMigration(&$Migration, $type) {$/;"	f
+allowed	Plugin/Migrations/Lib/CakeMigration.php	/^		$allowed = array('connection', 'callback');$/;"	v
+appDir	Console/cake.php	/^	$appDir = basename(dirname(dirname(__FILE__)));$/;"	v
+appDir	Plugin/Migrations/Console/Command/MigrationShell.php	/^			$appDir = preg_replace('\/[^a-zA-Z0-9]\/', '', APP_DIR);$/;"	v
+aros	Config/Schema/db_acl.php	/^	public $aros = array($/;"	v
+aros	Config/Schema/db_acl.sql	/^CREATE TABLE aros ($/;"	t
+aros.alias	Config/Schema/db_acl.sql	/^  foreign_key INTEGER(10) UNSIGNED DEFAULT NULL,$/;"	F
+aros.foreign_key	Config/Schema/db_acl.sql	/^  model VARCHAR(255) DEFAULT '',$/;"	F
+aros.id	Config/Schema/db_acl.sql	/^CREATE TABLE aros ($/;"	F
+aros.lft	Config/Schema/db_acl.sql	/^  alias VARCHAR(255) DEFAULT '',$/;"	F
+aros.model	Config/Schema/db_acl.sql	/^  parent_id INTEGER(10) DEFAULT NULL,$/;"	F
+aros.parent_id	Config/Schema/db_acl.sql	/^  id INTEGER(10) UNSIGNED NOT NULL AUTO_INCREMENT,$/;"	F
+aros.rght	Config/Schema/db_acl.sql	/^  lft INTEGER(10) DEFAULT NULL,$/;"	F
+aros_acos	Config/Schema/db_acl.php	/^	public $aros_acos = array($/;"	v
+aros_acos	Config/Schema/db_acl.sql	/^CREATE TABLE aros_acos ($/;"	t
+aros_acos._create	Config/Schema/db_acl.sql	/^  aco_id INTEGER(10) UNSIGNED NOT NULL,$/;"	F
+aros_acos._delete	Config/Schema/db_acl.sql	/^  _update CHAR(2) NOT NULL DEFAULT 0,$/;"	F
+aros_acos._read	Config/Schema/db_acl.sql	/^  _create CHAR(2) NOT NULL DEFAULT 0,$/;"	F
+aros_acos._update	Config/Schema/db_acl.sql	/^  _read CHAR(2) NOT NULL DEFAULT 0,$/;"	F
+aros_acos.aco_id	Config/Schema/db_acl.sql	/^  aro_id INTEGER(10) UNSIGNED NOT NULL,$/;"	F
+aros_acos.aro_id	Config/Schema/db_acl.sql	/^  id INTEGER(10) UNSIGNED NOT NULL AUTO_INCREMENT,$/;"	F
+aros_acos.id	Config/Schema/db_acl.sql	/^CREATE TABLE aros_acos ($/;"	F
+array	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$array = explode("\\n", str_replace("\\r\\n", "\\n", file_get_contents($file)));$/;"	v
+articles	Plugin/Migrations/Test/test_app/Plugin/TestMigrationPlugin/Config/Schema/Schema.php	/^	public $articles = array($/;"	v
+articles	Plugin/Migrations/Test/test_app/Plugin/TestMigrationPlugin4/Config/Schema/schema.php	/^	public $articles = array($/;"	v
+autoFixtures	Plugin/Migrations/Test/Case/Lib/Migration/PrecheckConditionTest.php	/^	public $autoFixtures = false;$/;"	v
+autoFixtures	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^	public $autoFixtures = false;$/;"	v
+basePath	Plugin/Migrations/Test/Case/AllMigrationsTest.php	/^		$basePath = CakePlugin::path('Migrations') . DS . 'Test' . DS . 'Case' . DS;$/;"	v
+bc	Plugin/Migrations/Lib/MigrationVersion.php	/^		$bc = ($this->Version->schema('class') === null);$/;"	v
+bcMapping	Plugin/Migrations/Lib/MigrationVersion.php	/^			$bcMapping = array($/;"	v
+bcMapping	Plugin/Migrations/Lib/MigrationVersion.php	/^		$bcMapping = array();$/;"	v
+before	Config/Migration/1457750313_create_cakephp_form.php	/^	public function before($direction) {$/;"	f
+before	Config/Migration/1457751902_create_contacts.php	/^	public function before($direction) {$/;"	f
+before	Config/Schema/db_acl.php	/^	public function before($event = array()) {$/;"	f
+before	Config/Schema/i18n.php	/^	public function before($event = array()) {$/;"	f
+before	Config/Schema/schema.php	/^	public function before($event = array()) {$/;"	f
+before	Config/Schema/sessions.php	/^	public function before($event = array()) {$/;"	f
+before	Plugin/Migrations/Config/Migration/001_init_migrations.php	/^	public function before($direction) {$/;"	f
+before	Plugin/Migrations/Config/Migration/002_convert_version_to_class_names.php	/^	public function before($direction) {$/;"	f
+before	Plugin/Migrations/Config/Migration/003_increase_class_name_length.php	/^	public function before($direction) {$/;"	f
+before	Plugin/Migrations/Lib/CakeMigration.php	/^	public function before($direction) {$/;"	f
+before	Plugin/Migrations/Test/test_app/Plugin/TestMigrationPlugin/Config/Migration/001_schema_dump.php	/^	public function before($direction) {$/;"	f
+before	Plugin/Migrations/Test/test_app/Plugin/TestMigrationPlugin/Config/Migration/002_another_migration_plugin_test_migration.php	/^	public function before($direction) {$/;"	f
+before	Plugin/Migrations/Test/test_app/Plugin/TestMigrationPlugin/Config/Schema/Schema.php	/^	public function before($event = array()) {$/;"	f
+before	Plugin/Migrations/Test/test_app/Plugin/TestMigrationPlugin4/Config/Schema/schema.php	/^	public function before($event = array()) {$/;"	f
+beforeAction	Plugin/Migrations/Console/Command/MigrationShell.php	/^	public function beforeAction(&$Migration, $type, $data) {$/;"	f
+beforeAction	Plugin/Migrations/Lib/Migration/PrecheckBase.php	/^	public function beforeAction($migration, $type, $data) {$/;"	f
+beforeAction	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^	public function beforeAction(&$Migration, $type, $data) {$/;"	f
+beforeMigration	Plugin/Migrations/Console/Command/MigrationShell.php	/^	public function beforeMigration(&$Migration, $direction) {$/;"	f
+beforeMigration	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^	public function beforeMigration(&$Migration, $type) {$/;"	f
+beforeRender	Plugin/Migrations/Lib/Panel/MigrationsPanel.php	/^	public function beforeRender(Controller $controller) {$/;"	f
+below	Console/Command/AppShell.php	/^ * Add your application-wide methods in the class below, your shells$/;"	c
+below	Controller/AppController.php	/^ * Add your application-wide methods in the class below, your controllers$/;"	c
+below	Model/AppModel.php	/^ * Add your application-wide methods in the class below, your models$/;"	c
+below	View/Helper/AppHelper.php	/^ * Add your application-wide methods in the class below, your helpers$/;"	c
+cache	Plugin/Migrations/Lib/MigrationVersion.php	/^	public function getMapping($type, $cache = true) {$/;"	v
+cacheAction	Config/core.php	/^ * You can either set it controller-wide by setting public $cacheAction = true,$/;"	v
+cacheAction	Config/core.php	/^ * or in each action using $this->cacheAction = true.$/;"	v
+cacheDisable	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$cacheDisable = Configure::read('Cache.disable');$/;"	v
+cake_sessions	Config/Schema/sessions.php	/^	public $cake_sessions = array($/;"	v
+cake_sessions	Config/Schema/sessions.sql	/^CREATE TABLE cake_sessions ($/;"	t
+cake_sessions.data	Config/Schema/sessions.sql	/^  id varchar(255) NOT NULL default '',$/;"	F
+cake_sessions.expires	Config/Schema/sessions.sql	/^  data text,$/;"	F
+cake_sessions.id	Config/Schema/sessions.sql	/^CREATE TABLE cake_sessions ($/;"	F
+callback	Plugin/Migrations/Lib/CakeMigration.php	/^			$callback = str_replace('Migration', '', $callback);$/;"	v
+callback	Plugin/Migrations/Lib/CakeMigration.php	/^			if ($callback === 'beforeMigration' || $callback === 'afterMigration') {$/;"	v
+callback	Plugin/Migrations/Lib/CakeMigration.php	/^		if ($callback === 'beforeMigration' || $callback === 'afterMigration') {$/;"	v
+callback	Plugin/Migrations/Lib/CakeMigration.php	/^	public $callback = null;$/;"	v
+callback	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^		$callback = new TestCallbackCakeMigration();$/;"	v
+callbackData	Plugin/Migrations/Lib/CakeMigration.php	/^				$callbackData = $data;$/;"	v
+calls	Config/core.php	/^ * once instead of passing it each time in function calls.$/;"	f
+calls	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^	public $calls = array();$/;"	v
+canonicalize	Console/cake	/^canonicalize() {$/;"	f
+checkAddField	Plugin/Migrations/Lib/Migration/PrecheckBase.php	/^	abstract public function checkAddField($table, $field);$/;"	f
+checkAddField	Plugin/Migrations/Lib/Migration/PrecheckCondition.php	/^	public function checkAddField($table, $field) {$/;"	f
+checkAddField	Plugin/Migrations/Lib/Migration/PrecheckException.php	/^	public function checkAddField($table, $field) {$/;"	f
+checkCreateTable	Plugin/Migrations/Lib/Migration/PrecheckBase.php	/^	abstract public function checkCreateTable($table);$/;"	f
+checkCreateTable	Plugin/Migrations/Lib/Migration/PrecheckCondition.php	/^	public function checkCreateTable($table) {$/;"	f
+checkCreateTable	Plugin/Migrations/Lib/Migration/PrecheckException.php	/^	public function checkCreateTable($table) {$/;"	f
+checkDropField	Plugin/Migrations/Lib/Migration/PrecheckBase.php	/^	abstract public function checkDropField($table, $field);$/;"	f
+checkDropField	Plugin/Migrations/Lib/Migration/PrecheckCondition.php	/^	public function checkDropField($table, $field) {$/;"	f
+checkDropField	Plugin/Migrations/Lib/Migration/PrecheckException.php	/^	public function checkDropField($table, $field) {$/;"	f
+checkDropTable	Plugin/Migrations/Lib/Migration/PrecheckBase.php	/^	abstract public function checkDropTable($table);$/;"	f
+checkDropTable	Plugin/Migrations/Lib/Migration/PrecheckCondition.php	/^	public function checkDropTable($table) {$/;"	f
+checkDropTable	Plugin/Migrations/Lib/Migration/PrecheckException.php	/^	public function checkDropTable($table) {$/;"	f
+checkPlugins	Plugin/Migrations/Config/Migration/002_convert_version_to_class_names.php	/^	public function checkPlugins() {$/;"	f
+checkRecords	Plugin/Migrations/Config/Migration/002_convert_version_to_class_names.php	/^	public function checkRecords() {$/;"	f
+class	Plugin/Migrations/Lib/CakeMigration.php	/^			$class = Inflector::camelize($class);$/;"	v
+className	Plugin/Migrations/Lib/MigrationVersion.php	/^			$className = implode('_', $parts);$/;"	v
+cli	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$cli = $this->_parseCommandLineFields($migrationName);$/;"	v
+command	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$command = 'schema generate --connection ' . $this->connection;$/;"	v
+comparison	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$comparison = $this->Schema->compare($database, $oldSchema);$/;"	v
+comparison	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$comparison = $this->Schema->compare($oldSchema, $newSchema);$/;"	v
+comparison	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$comparison = array();$/;"	v
+comparison	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$comparison = array($/;"	v
+comparison	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$comparison = array('posts' => array('add' => $this->tables['posts']));$/;"	v
+comparison	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$comparison = array();$/;"	v
+components	Plugin/Migrations/Lib/Panel/MigrationsPanel.php	/^ * public $components = array('DebugKit.Toolbar' => array($/;"	v
+composerInstall	Console/cake.php	/^	$composerInstall = $root . DS . $appDir . DS . 'Vendor' . DS . 'cakephp' . DS . 'cakephp' . DS . 'lib';$/;"	v
+conditions	Plugin/Migrations/Lib/MigrationVersion.php	/^			$conditions = array($/;"	v
+confirm	Controller/ContactsController.php	/^    public function confirm()$/;"	f
+connection	Plugin/Migrations/Console/Command/MigrationShell.php	/^			$connection = 'default';$/;"	v
+connection	Plugin/Migrations/Console/Command/MigrationShell.php	/^			$this->connection = $this->params['connection'];$/;"	v
+connection	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$connection = $this->connection;$/;"	v
+connection	Plugin/Migrations/Console/Command/MigrationShell.php	/^	public $connection = null;$/;"	v
+connection	Plugin/Migrations/Lib/CakeMigration.php	/^	public $connection = 'default';$/;"	v
+connection	Plugin/Migrations/Lib/MigrationVersion.php	/^			$this->connection = $options['connection'];$/;"	v
+connection	Plugin/Migrations/Lib/MigrationVersion.php	/^	public $connection = 'default';$/;"	v
+connection	Plugin/Migrations/Test/Case/Lib/Migration/PrecheckConditionTest.php	/^	public $connection = 'test';$/;"	v
+connection	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^	public $connection = 'test';$/;"	v
+contacts	Config/Schema/schema.php	/^	public $contacts = array($/;"	v
+content	Plugin/Migrations/Console/Command/MigrationShell.php	/^			$content = $file->read();$/;"	v
+content	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$content = $this->Schema->read($options);$/;"	v
+content	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$content = $this->_generateMigration($name, Inflector::camelize($name), $migration);$/;"	v
+content	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$content = $this->_generateTemplate('migration', array('name' => $name, 'class' => $class, 'migration' => $content));$/;"	v
+content	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$content = '';$/;"	v
+content	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$content = ob_get_clean();$/;"	v
+content	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$content = str_replace('=> NULL', '=> null', $content);$/;"	v
+contents	Plugin/Migrations/Lib/MigrationVersion.php	/^				$contents = file_get_contents($path . $file);$/;"	v
+count	Controller/PagesController.php	/^		$count = count($path);$/;"	v
+currentTables	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$currentTables = array('users' => $this->tables['users']);$/;"	v
+data	Plugin/Migrations/Lib/CakeMigration.php	/^								$data = $tableFields[$field];$/;"	v
+data	Plugin/Migrations/Lib/CakeMigration.php	/^							$data = array();$/;"	v
+data	Plugin/Migrations/Lib/CakeMigration.php	/^					$data = array('table' => $table, 'field' => $field);$/;"	v
+data	Plugin/Migrations/Lib/CakeMigration.php	/^					$data = array('table' => $table, 'old_name' => $field, 'new_name' => $col);$/;"	v
+data	Plugin/Migrations/Lib/CakeMigration.php	/^	protected function _invokeCallbacks($callback, $type, $data = array()) {$/;"	v
+data	Plugin/Migrations/Lib/CakeMigration.php	/^	protected function _invokePrecheck($callback, $type, $data = array()) {$/;"	v
+database	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$database = $this->_readSchema();$/;"	v
+db	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$db = ConnectionManager::getDataSource($connection);$/;"	v
+db	Plugin/Migrations/Lib/CakeMigration.php	/^		$this->db = ConnectionManager::getDataSource($this->connection);$/;"	v
+db	Plugin/Migrations/Lib/CakeMigration.php	/^	public $db = null;$/;"	v
+db	Plugin/Migrations/Lib/MigrationVersion.php	/^		$db = ConnectionManager::getDataSource($this->connection);$/;"	v
+db	Plugin/Migrations/Test/Case/Lib/Migration/PrecheckConditionTest.php	/^		$this->db = ConnectionManager::getDataSource($this->connection);$/;"	v
+db	Plugin/Migrations/Test/Case/Lib/Migration/PrecheckConditionTest.php	/^	public $db;$/;"	v
+db	Plugin/Migrations/Test/Case/Lib/MigrationVersionTest.php	/^		$db = ConnectionManager::getDataSource('test');$/;"	v
+db	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^	public $db;$/;"	v
+def	Plugin/Migrations/Lib/CakeMigration.php	/^								$def = $col;$/;"	v
+def	Plugin/Migrations/Lib/CakeMigration.php	/^								$def = array_merge($tableFields[$field], $col);$/;"	v
+default	Config/database.php	/^	public $default = array($/;"	v
+default	Plugin/Migrations/Console/Command/MigrationShell.php	/^	protected function _singleStepOptions($mapping, $latestVersion, $default = array()) {$/;"	v
+defaults	Plugin/Migrations/Lib/CakeMigration.php	/^		$defaults = array($/;"	v
+defaults	Plugin/Migrations/Lib/MigrationVersion.php	/^		$defaults = array($/;"	v
+dependencies	Plugin/Migrations/Lib/CakeMigration.php	/^	public $dependencies = array();$/;"	v
+description	Config/Migration/1457750313_create_cakephp_form.php	/^	public $description = 'create_cakephp_form';$/;"	v
+description	Config/Migration/1457751902_create_contacts.php	/^	public $description = 'create_contacts';$/;"	v
+description	Plugin/Migrations/Config/Migration/001_init_migrations.php	/^	public $description = 'Init migrations tables';$/;"	v
+description	Plugin/Migrations/Config/Migration/002_convert_version_to_class_names.php	/^	public $description = 'Convert version to classNames';$/;"	v
+description	Plugin/Migrations/Config/Migration/003_increase_class_name_length.php	/^	public $description = 'Increase the maximum length of class names.';$/;"	v
+description	Plugin/Migrations/Lib/CakeMigration.php	/^	public $description = '';$/;"	v
+description	Plugin/Migrations/Test/test_app/Plugin/TestMigrationPlugin/Config/Migration/001_schema_dump.php	/^	public $description = 'Version 001 (schema dump) of TestMigrationPlugin';$/;"	v
+description	Plugin/Migrations/Test/test_app/Plugin/TestMigrationPlugin/Config/Migration/002_another_migration_plugin_test_migration.php	/^	public $description = 'Version 002 (another test) of TestMigrationPlugin';$/;"	v
+direction	Plugin/Migrations/Console/Command/MigrationShell.php	/^						$direction = 'down';$/;"	v
+direction	Plugin/Migrations/Console/Command/MigrationShell.php	/^						$direction = 'up';$/;"	v
+direction	Plugin/Migrations/Console/Command/MigrationShell.php	/^					$direction = 'up';$/;"	v
+direction	Plugin/Migrations/Console/Command/MigrationShell.php	/^		foreach ($migration as $direction => $actions) {$/;"	v
+direction	Plugin/Migrations/Lib/CakeMigration.php	/^		$this->direction = $direction;$/;"	v
+direction	Plugin/Migrations/Lib/CakeMigration.php	/^	public $direction = null;$/;"	v
+direction	Plugin/Migrations/Lib/MigrationVersion.php	/^				$direction = 'up';$/;"	v
+direction	Plugin/Migrations/Lib/MigrationVersion.php	/^			$direction = $options['direction'];$/;"	v
+direction	Plugin/Migrations/Lib/MigrationVersion.php	/^			$direction = ($targetVersion < $latestVersion) ? 'down' : $direction;$/;"	v
+direction	Plugin/Migrations/Lib/MigrationVersion.php	/^		$direction = 'up';$/;"	v
+dispatcher	Console/cake.php	/^$dispatcher = 'Cake' . DS . 'Console' . DS . 'ShellDispatcher.php';$/;"	v
+dispatcher	webroot/index.php	/^$dispatcher = 'Cake' . DS . 'Console' . DS . 'ShellDispatcher.php';$/;"	v
+dispatcher	webroot/test.php	/^$dispatcher = 'Cake' . DS . 'Console' . DS . 'ShellDispatcher.php';$/;"	v
+display	Controller/PagesController.php	/^	public function display() {$/;"	f
+dry	Plugin/Migrations/Lib/CakeMigration.php	/^		$this->dry = $options['dry'];$/;"	v
+dry	Plugin/Migrations/Lib/CakeMigration.php	/^	public $dry = false;$/;"	v
+dry	Plugin/Migrations/Lib/MigrationVersion.php	/^		$this->dry = $options['dry'];$/;"	v
+dry	Plugin/Migrations/Lib/MigrationVersion.php	/^	public $dry = false;$/;"	v
+dump	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$dump = $dump['tables'];$/;"	v
+dump	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$dump = $this->_readSchema();$/;"	v
+duration	Config/core.php	/^	$duration = '+10 seconds';$/;"	v
+duration	Config/core.php	/^$duration = '+999 days';$/;"	v
+elementName	Plugin/Migrations/Lib/Panel/MigrationsPanel.php	/^	public $elementName = 'migrations_panel';$/;"	v
+end	Plugin/Migrations/Test/Case/Lib/MigrationVersionTest.php	/^	protected function _mapping($start = 0, $end = 0) {$/;"	v
+engine	Config/core.php	/^$engine = 'File';$/;"	v
+errorMessage	Plugin/Migrations/Lib/MigrationVersion.php	/^					$errorMessage = __d('migrations', "There was an error during a migration. \\n The error was: '%s' \\n You must resolve the issue manually and try again.", $exception->getMessage(), $latestVersionName);$/;"	v
+exception	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$exception = new MigrationException($migration, 'Exception message');$/;"	v
+excluded	Plugin/Migrations/Console/Command/MigrationShell.php	/^			$excluded = String::tokenize($this->params['exclude']);$/;"	v
+expected	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$expected = <<<TEXT$/;"	v
+expected	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$expected = array($/;"	v
+expected	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$expected = file_get_contents(CakePlugin::path('Migrations') . '\/Test\/Fixture\/test_migration.txt');$/;"	v
+expected	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$expected = file_get_contents(CakePlugin::path('Migrations') . '\/Test\/Fixture\/test_migration_add_fields_from_cli.txt');$/;"	v
+expected	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$expected = file_get_contents(CakePlugin::path('Migrations') . '\/Test\/Fixture\/test_migration_create_table_from_cli.txt');$/;"	v
+expected	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$expected = file_get_contents(CakePlugin::path('Migrations') . '\/Test\/Fixture\/test_migration_drop_table_from_cli.txt');$/;"	v
+expected	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$expected = file_get_contents(CakePlugin::path('Migrations') . '\/Test\/Fixture\/test_migration_remove_fields_from_cli.txt');$/;"	v
+expected	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$expected = str_replace("\\r\\n", "\\n", $expected);$/;"	v
+expected	Plugin/Migrations/Test/Case/Lib/MigrationVersionTest.php	/^		$expected = 0;$/;"	v
+expected	Plugin/Migrations/Test/Case/Lib/MigrationVersionTest.php	/^		$expected = 1;$/;"	v
+expected	Plugin/Migrations/Test/Case/Lib/MigrationVersionTest.php	/^		$expected = 2;$/;"	v
+expected	Plugin/Migrations/Test/Case/Lib/MigrationVersionTest.php	/^		$expected = array($/;"	v
+expected	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^		$expected = array($/;"	v
+failed	webroot/index.php	/^		$failed = true;$/;"	v
+failed	webroot/test.php	/^		$failed = true;$/;"	v
+field	Plugin/Migrations/Console/Command/MigrationShell.php	/^						foreach ($fields as $field => $col) {$/;"	v
+field	Plugin/Migrations/Console/Command/MigrationShell.php	/^			$field = $matches[1];$/;"	v
+field	Plugin/Migrations/Console/Command/MigrationShell.php	/^			if ($indexType == null && $field == 'id') {$/;"	v
+field	Plugin/Migrations/Lib/CakeMigration.php	/^					$field = $col;$/;"	v
+field	Plugin/Migrations/Lib/CakeMigration.php	/^			foreach ($fields as $field => $col) {$/;"	v
+field	Plugin/Migrations/Lib/MigrationVersion.php	/^				$field => $value, 'type' => $type$/;"	v
+field	Plugin/Migrations/Lib/MigrationVersion.php	/^				$this->Version->alias . '.' . $field => $value,$/;"	v
+field	Plugin/Migrations/Lib/MigrationVersion.php	/^		$field = $bc ? 'version' : 'class';$/;"	v
+fieldExists	Plugin/Migrations/Lib/Migration/PrecheckBase.php	/^	public function fieldExists($table, $field) {$/;"	f
+fieldNames	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$fieldNames = array();$/;"	v
+fields	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$fields = $cli['fields'];$/;"	v
+fields	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$fields = array();$/;"	v
+fields	Plugin/Migrations/Lib/Migration/PrecheckBase.php	/^		$fields = $this->_migration->db->describe($table);$/;"	v
+fields	Plugin/Migrations/Test/Case/Lib/Migration/PrecheckConditionTest.php	/^		$fields = $this->db->describe($Model);$/;"	v
+fields	Plugin/Migrations/Test/Case/Lib/Migration/PrecheckConditionTest.php	/^		$fields = $this->db->describe($model);$/;"	v
+fields	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^		$fields = $this->db->describe($model);$/;"	v
+fields	Plugin/Migrations/Test/Fixture/SchemaMigrationsFixture.php	/^	public $fields = array($/;"	v
+fieldsToDrop	Plugin/Migrations/Console/Command/MigrationShell.php	/^			$fieldsToDrop = array();$/;"	v
+file	Plugin/Migrations/Console/Command/MigrationShell.php	/^			$file = $this->_getPath($type) . 'Config' . DS . 'Schema' . DS . 'schema.php';$/;"	v
+file	Plugin/Migrations/Console/Command/MigrationShell.php	/^			$file = new File($folder->pwd() . DS . $schema_file);$/;"	v
+file	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$file = $this->_findSchemaFile($folder, $schema_files, $name);$/;"	v
+file	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$file = 'schema.php';$/;"	v
+files	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$files = glob(TMP . 'tests' . DS . '*add_all_fields_to_products.php');$/;"	v
+files	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$files = glob(TMP . 'tests' . DS . '*create_products.php');$/;"	v
+files	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$files = glob(TMP . 'tests' . DS . '*create_slug_field.php');$/;"	v
+files	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$files = glob(TMP . 'tests' . DS . '*create_some_sample_data.php');$/;"	v
+files	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$files = glob(TMP . 'tests' . DS . '*drop_products.php');$/;"	v
+files	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$files = glob(TMP . 'tests' . DS . '*drop_slug_field.php');$/;"	v
+files	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$files = glob(TMP . 'tests' . DS . '*initial_schema.php');$/;"	v
+files	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$files = glob(TMP . 'tests' . DS . '*remove_name_and_desc_from_products.php');$/;"	v
+files	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$files = glob(TMP . 'tests' . DS . '*schema_dump.php');$/;"	v
+fixtures	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^	public $fixtures = array('plugin.migrations.schema_migrations', 'core.article', 'core.post', 'core.user');$/;"	v
+fixtures	Plugin/Migrations/Test/Case/Lib/Migration/PrecheckConditionTest.php	/^	public $fixtures = array($/;"	v
+fixtures	Plugin/Migrations/Test/Case/Lib/MigrationVersionTest.php	/^	public $fixtures = array('plugin.migrations.schema_migrations');$/;"	v
+fixtures	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^	public $fixtures = array($/;"	v
+flipped	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$flipped = array_flip($versions);$/;"	v
+flipped	Plugin/Migrations/Lib/MigrationVersion.php	/^			$flipped = array_flip($keys);$/;"	v
+folder	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$folder = new Folder($this->_getPath($type) . 'Config' . DS . 'Schema');$/;"	v
+folder	Plugin/Migrations/Lib/MigrationVersion.php	/^		$folder = new Folder($path);$/;"	v
+from	Config/bootstrap.php	/^ *		'MyCacheFilter' => array('prefix' => 'my_cache_'), \/\/  will use MyCacheFilter class from the Routing\/Filter package in your app with settings array.$/;"	c
+from	Config/bootstrap.php	/^ *		'MyCacheFilter', \/\/  will use MyCacheFilter class from the Routing\/Filter package in your app.$/;"	c
+from	Config/bootstrap.php	/^ *		'MyPlugin.MyFilter', \/\/ will use MyFilter class from the Routing\/Filter package in MyPlugin plugin.$/;"	c
+fromComparison	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^	public function fromComparison($migration, $comparison, $oldTables, $currentTables) {$/;"	f
+fromSchema	Plugin/Migrations/Console/Command/MigrationShell.php	/^						$fromSchema = false;$/;"	v
+fromSchema	Plugin/Migrations/Console/Command/MigrationShell.php	/^					$fromSchema = true;$/;"	v
+fromSchema	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$fromSchema = false;$/;"	v
+generate	Plugin/Migrations/Console/Command/MigrationShell.php	/^	public function generate() {$/;"	f
+generateModel	Plugin/Migrations/Lib/CakeMigration.php	/^	public function generateModel($name, $table = null, $options = array()) {$/;"	f
+getMapping	Plugin/Migrations/Lib/MigrationVersion.php	/^	public function getMapping($type, $cache = true) {$/;"	f
+getMigration	Plugin/Migrations/Lib/MigrationVersion.php	/^	public function getMigration($name, $class, $type, $options = array()) {$/;"	f
+getOptionParser	Plugin/Migrations/Console/Command/MigrationShell.php	/^	public function getOptionParser() {$/;"	f
+getQueryLog	Plugin/Migrations/Lib/CakeMigration.php	/^	public function getQueryLog() {$/;"	f
+getVersion	Plugin/Migrations/Lib/MigrationVersion.php	/^	public function getVersion($type) {$/;"	f
+helpers	Controller/ContactsController.php	/^    public $helpers = array('Html', 'Session');$/;"	v
+i18n	Config/Schema/i18n.php	/^	public $i18n = array($/;"	v
+i18n	Config/Schema/i18n.sql	/^CREATE TABLE i18n ($/;"	t
+i18n.content	Config/Schema/i18n.sql	/^	field varchar(255) NOT NULL,$/;"	F
+i18n.field	Config/Schema/i18n.sql	/^	foreign_key int(10) NOT NULL,$/;"	F
+i18n.foreign_key	Config/Schema/i18n.sql	/^	model varchar(255) NOT NULL,$/;"	F
+i18n.id	Config/Schema/i18n.sql	/^CREATE TABLE i18n ($/;"	F
+i18n.locale	Config/Schema/i18n.sql	/^	id int(10) NOT NULL auto_increment,$/;"	F
+i18n.model	Config/Schema/i18n.sql	/^	locale varchar(6) NOT NULL,$/;"	F
+idx_aco_id	Config/Schema/db_acl.sql	/^CREATE INDEX idx_aco_id ON `aros_acos` (`aco_id`);$/;"	i
+idx_acos_alias	Config/Schema/db_acl.sql	/^CREATE INDEX idx_acos_alias ON `acos` (`alias`);$/;"	i
+idx_acos_lft_rght	Config/Schema/db_acl.sql	/^CREATE INDEX idx_acos_lft_rght ON `acos` (`lft`, `rght`);$/;"	i
+idx_aros_alias	Config/Schema/db_acl.sql	/^CREATE INDEX idx_aros_alias ON `aros` (`alias`);$/;"	i
+idx_aros_lft_rght	Config/Schema/db_acl.sql	/^CREATE INDEX idx_aros_lft_rght ON `aros` (`lft`, `rght`);$/;"	i
+if	Config/acl.php	/^ * will ask the configured ACL interface if access is granted. Under the assumptions 1. and 2. this will be$/;"	i
+if	Plugin/Migrations/Console/Command/MigrationShell.php	/^ * Load and construct the schema class if exists$/;"	c
+implements	Config/core.php	/^ * Make sure the class implements `CakeSessionHandlerInterface` and set Session.handler to <name>$/;"	c
+in	Config/core.php	/^ *   should place the file for that class in app\/Lib\/Error. This class needs to implement a render method.$/;"	c
+in	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$in = $this->getMock('ConsoleInput', array(), array(), '', false);$/;"	v
+index	Controller/ContactsController.php	/^    public function index()$/;"	f
+index	Plugin/Migrations/Config/Migration/002_convert_version_to_class_names.php	/^		$index = array_search('app', $plugins);$/;"	v
+index	Plugin/Migrations/Console/Command/MigrationShell.php	/^								foreach ($col as $index => $key) {$/;"	v
+index	Plugin/Migrations/Lib/CakeMigration.php	/^				$index = array();$/;"	v
+indexName	Plugin/Migrations/Console/Command/MigrationShell.php	/^						$indexName = strtoupper('BY_' . $field);$/;"	v
+indexName	Plugin/Migrations/Console/Command/MigrationShell.php	/^						$indexName = strtoupper('UNIQUE_' . $field);$/;"	v
+indexName	Plugin/Migrations/Console/Command/MigrationShell.php	/^					$indexName = 'PRIMARY';$/;"	v
+indexName	Plugin/Migrations/Console/Command/MigrationShell.php	/^			$indexName = empty($matches[4]) ? null : $matches[4];$/;"	v
+indexType	Plugin/Migrations/Console/Command/MigrationShell.php	/^					$indexType = null;$/;"	v
+indexType	Plugin/Migrations/Console/Command/MigrationShell.php	/^				$indexType = 'primary';$/;"	v
+indexType	Plugin/Migrations/Console/Command/MigrationShell.php	/^			$indexType = empty($matches[3]) ? null : $matches[3];$/;"	v
+indexUnique	Plugin/Migrations/Console/Command/MigrationShell.php	/^					$indexUnique = true;$/;"	v
+indexUnique	Plugin/Migrations/Console/Command/MigrationShell.php	/^			$indexUnique = false;$/;"	v
+indexes	Plugin/Migrations/Console/Command/MigrationShell.php	/^							$indexes = $fields['indexes'];$/;"	v
+indexes	Plugin/Migrations/Console/Command/MigrationShell.php	/^						$indexes = array();$/;"	v
+indexes	Plugin/Migrations/Console/Command/MigrationShell.php	/^					$indexes = array('indexes' => $fields['indexes']);$/;"	v
+indexes	Plugin/Migrations/Console/Command/MigrationShell.php	/^				$indexes = array();$/;"	v
+indexes	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$indexes = array();$/;"	v
+indexes	Plugin/Migrations/Lib/CakeMigration.php	/^				$indexes = $fields['indexes'];$/;"	v
+indexes	Plugin/Migrations/Lib/CakeMigration.php	/^			$indexes = array();$/;"	v
+indexes	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^		$indexes = $this->db->index($model);$/;"	v
+info	Plugin/Migrations/Config/Migration/002_convert_version_to_class_names.php	/^			$info = $this->mappings[$type][$version];$/;"	v
+info	Plugin/Migrations/Console/Command/MigrationShell.php	/^					$info = $mapping[$version];$/;"	v
+info	Plugin/Migrations/Console/Command/MigrationShell.php	/^			$info = $mapping[$version];$/;"	v
+info	Plugin/Migrations/Lib/CakeMigration.php	/^	public $info = null;$/;"	v
+initDb	Plugin/Migrations/Test/Case/Lib/Migration/PrecheckConditionTest.php	/^	public function initDb() {$/;"	f
+initVersion	Plugin/Migrations/Lib/MigrationVersion.php	/^	public function initVersion() {$/;"	f
+install	Console/cake.php	/^		$install = $composerInstall;$/;"	v
+install	Console/cake.php	/^	$install = $root . DS . 'lib';$/;"	v
+is	Config/core.php	/^ * If a method of CakeTime class is called with $timezone parameter as null and `Config.timezone` is set,$/;"	c
+k	Plugin/Migrations/Lib/MigrationVersion.php	/^		foreach ($oldMap as $k => $v) {$/;"	v
+key	Plugin/Migrations/Console/Command/MigrationShell.php	/^			foreach ($values as $key => $value) {$/;"	v
+key	Plugin/Migrations/Lib/CakeMigration.php	/^				$key = $index;$/;"	v
+key	Plugin/Migrations/Lib/CakeMigration.php	/^		foreach ($indexes as $key => $index) {$/;"	v
+keys	Plugin/Migrations/Lib/CakeMigration.php	/^		$keys = Cache::configured();$/;"	v
+keys	Plugin/Migrations/Lib/MigrationVersion.php	/^			$keys = array_keys($mapping);$/;"	v
+latest	Plugin/Migrations/Console/Command/MigrationShell.php	/^				$latest = end($mapping);$/;"	v
+latestVersion	Plugin/Migrations/Console/Command/MigrationShell.php	/^			$latestVersion = isset($versions[$versionNumber + 1]) ? $versions[$versionNumber + 1] : -1;$/;"	v
+latestVersion	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$latestVersion = $this->Version->getVersion($this->type);$/;"	v
+latestVersionName	Plugin/Migrations/Lib/MigrationVersion.php	/^						$latestVersionName = '#' .$/;"	v
+latestVersionName	Plugin/Migrations/Lib/MigrationVersion.php	/^						$latestVersionName = null;$/;"	v
+layout	Controller/ContactsController.php	/^    public $layout = 'contact';$/;"	v
+line	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^			} elseif (!empty($result) && $line === "\\t);") {$/;"	v
+log	Plugin/Migrations/Lib/CakeMigration.php	/^	public $log = array();$/;"	v
+log	Plugin/Migrations/Lib/MigrationVersion.php	/^	public $log = array();$/;"	v
+logQuery	Plugin/Migrations/Lib/CakeMigration.php	/^	public function logQuery($sql) {$/;"	f
+main	Plugin/Migrations/Console/Command/MigrationShell.php	/^	public function main() {$/;"	f
+map	Plugin/Migrations/Lib/MigrationVersion.php	/^			$map = $this->_enumerateMigrations('migrations');$/;"	v
+map	Plugin/Migrations/Lib/MigrationVersion.php	/^		$map = $this->_enumerateNewMigrations($type);$/;"	v
+map	Plugin/Migrations/Lib/Panel/MigrationsPanel.php	/^		$map = $migrations = array();$/;"	v
+map	Plugin/Migrations/Test/test_app/Plugin/TestMigrationPlugin/Config/Migration/map.php	/^$map = array($/;"	v
+map	Plugin/Migrations/Test/test_app/Plugin/TestMigrationPlugin3/Config/Migration/map.php	/^$map = array();/;"	v
+mapping	Plugin/Migrations/Config/Migration/002_convert_version_to_class_names.php	/^			$mapping = $this->mappings[$type];$/;"	v
+mapping	Plugin/Migrations/Console/Command/MigrationShell.php	/^				$mapping = $this->Version->getMapping($type);$/;"	v
+mapping	Plugin/Migrations/Console/Command/MigrationShell.php	/^			$mapping = $this->Version->getMapping($this->type);$/;"	v
+mapping	Plugin/Migrations/Lib/MigrationVersion.php	/^					$mapping = $this->getMapping($options['type']);$/;"	v
+mapping	Plugin/Migrations/Lib/MigrationVersion.php	/^		$mapping = $this->_enumerateMigrations($type);$/;"	v
+mapping	Plugin/Migrations/Lib/MigrationVersion.php	/^		$mapping = $this->getMapping($options['type'], false);$/;"	v
+mapping	Plugin/Migrations/Lib/MigrationVersion.php	/^		$mapping = $this->getMapping($type);$/;"	v
+mapping	Plugin/Migrations/Lib/MigrationVersion.php	/^		$mapping = $this->getMapping('Migrations');$/;"	v
+mapping	Plugin/Migrations/Lib/MigrationVersion.php	/^		$mapping = array();$/;"	v
+mapping	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$mapping = array($/;"	v
+mapping	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$mapping = array();$/;"	v
+mapping	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$mapping = array(1 => array($/;"	v
+mapping	Plugin/Migrations/Test/Case/Lib/MigrationVersionTest.php	/^		$mapping = array();$/;"	v
+mappings	Plugin/Migrations/Config/Migration/002_convert_version_to_class_names.php	/^		$this->mappings = array();$/;"	v
+mappings	Plugin/Migrations/Config/Migration/002_convert_version_to_class_names.php	/^	public $mappings = array();$/;"	v
+maps	Config/core.php	/^ * metadata like class maps, and model schema.$/;"	c
+matching	Plugin/Migrations/Test/test_app/Plugin/TestMigrationPlugin/Config/Migration/blank_file.php	/^\/\/ Blank file for testing loading a migration file without a class matching it$/;"	c
+message	Plugin/Migrations/Console/Command/MigrationShell.php	/^			$message = String::insert($this->_messages[$type], $data);$/;"	v
+message	Plugin/Migrations/Lib/CakeMigration.php	/^					$message = __d('migrations', 'Migration action type (%s) is not one of valid actions type.', $type);$/;"	v
+message	Plugin/Migrations/Lib/CakeMigration.php	/^	public function __construct($Migration, $message = '', $code = 0) {$/;"	v
+methodName	Plugin/Migrations/Lib/CakeMigration.php	/^					$methodName = '_alterTable';$/;"	v
+methodName	Plugin/Migrations/Lib/CakeMigration.php	/^					$methodName = '_createTable';$/;"	v
+methodName	Plugin/Migrations/Lib/CakeMigration.php	/^					$methodName = '_dropTable';$/;"	v
+methodName	Plugin/Migrations/Lib/CakeMigration.php	/^					$methodName = '_renameTable';$/;"	v
+migrated	Plugin/Migrations/Lib/MigrationVersion.php	/^			$migrated = Hash::combine($migrated, '{n}.' . $this->Version->alias . '.class', '{n}.' . $this->Version->alias . '.created');$/;"	v
+migrated	Plugin/Migrations/Lib/MigrationVersion.php	/^			$migrated = Hash::combine($migrated, '{n}.' . $this->Version->alias . '.version', '{n}.' . $this->Version->alias . '.created');$/;"	v
+migrated	Plugin/Migrations/Lib/MigrationVersion.php	/^		$migrated = $this->Version->find('all', array($/;"	v
+migrated	Plugin/Migrations/Lib/MigrationVersion.php	/^	public function setVersion($version, $type, $migrated = true) {$/;"	v
+migration	Config/Migration/1457750313_create_cakephp_form.php	/^	public $migration = array($/;"	v
+migration	Config/Migration/1457751902_create_contacts.php	/^	public $migration = array($/;"	v
+migration	Plugin/Migrations/Config/Migration/001_init_migrations.php	/^	public $migration = array($/;"	v
+migration	Plugin/Migrations/Config/Migration/002_convert_version_to_class_names.php	/^			$migration = $mapping[$version];$/;"	v
+migration	Plugin/Migrations/Config/Migration/002_convert_version_to_class_names.php	/^			$migration = $this->Version->getMigration($info['name'], $info['class'], $type);$/;"	v
+migration	Plugin/Migrations/Config/Migration/002_convert_version_to_class_names.php	/^		$this->migration = array($/;"	v
+migration	Plugin/Migrations/Config/Migration/002_convert_version_to_class_names.php	/^	public $migration = array($/;"	v
+migration	Plugin/Migrations/Config/Migration/003_increase_class_name_length.php	/^	public $migration = array($/;"	v
+migration	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$migration = $this->_fromComparison($migration, $comparison, $oldSchema->tables, $database['tables']);$/;"	v
+migration	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$migration = $this->_fromComparison($migration, $comparison, $oldSchema->tables, $newSchema['tables']);$/;"	v
+migration	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$migration = array('up' => array(), 'down' => array());$/;"	v
+migration	Plugin/Migrations/Lib/CakeMigration.php	/^	public $migration = array($/;"	v
+migration	Plugin/Migrations/Lib/MigrationVersion.php	/^				$migration = $this->getMigration($info['name'], $info['class'], $info['type'], $options);$/;"	v
+migration	Plugin/Migrations/Lib/MigrationVersion.php	/^			$migration = $this->getMigration($name, $class, 'Migrations');$/;"	v
+migration	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$migration = array($/;"	v
+migration	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$migration = new CakeMigration();$/;"	v
+migration	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^		$migration = new TestCakeMigration();$/;"	v
+migration	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^		$migration = new TestCakeMigration(array($/;"	v
+migration	Plugin/Migrations/Test/test_app/Plugin/TestMigrationPlugin/Config/Migration/001_schema_dump.php	/^	public $migration = array($/;"	v
+migration	Plugin/Migrations/Test/test_app/Plugin/TestMigrationPlugin/Config/Migration/002_another_migration_plugin_test_migration.php	/^	public $migration = array($/;"	v
+migration2	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^		$migration2 = new TestCakeMigration(array($/;"	v
+migrationConnection	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$this->migrationConnection = $this->_startMigrationConnection();$/;"	v
+migrationConnection	Plugin/Migrations/Console/Command/MigrationShell.php	/^	public $migrationConnection = null;$/;"	v
+migrationConnection	Plugin/Migrations/Lib/MigrationVersion.php	/^			$this->migrationConnection = $options['migrationConnection'];$/;"	v
+migrationConnection	Plugin/Migrations/Lib/MigrationVersion.php	/^	public $migrationConnection = null;$/;"	v
+migrationName	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$migrationName = '';$/;"	v
+migrationName	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$migrationName = array_shift($this->args);$/;"	v
+migrationName	Plugin/Migrations/Console/Command/MigrationShell.php	/^		foreach ($log as $migrationName => $queries) {$/;"	v
+migration_order	Plugin/Migrations/Lib/CakeMigration.php	/^	protected function migration_order($a, $b) {$/;"	f
+migrations	Plugin/Migrations/Lib/Panel/MigrationsPanel.php	/^		$migrations = Hash::merge(array('app'), CakePlugin::loaded());$/;"	v
+model	Plugin/Migrations/Lib/CakeMigration.php	/^				$model = new Model(array('table' => $table, 'ds' => $this->connection));$/;"	v
+model	Plugin/Migrations/Test/Case/Lib/Migration/PrecheckConditionTest.php	/^		$model = new Model(array('table' => 'posts', 'ds' => 'test'));$/;"	v
+model	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^		$model = new Model(array('table' => 'posts', 'ds' => 'test'));$/;"	v
+name	Config/Schema/i18n.php	/^	public $name = 'i18n';$/;"	v
+name	Config/Schema/sessions.php	/^	public $name = 'Sessions';$/;"	v
+name	Config/core.php	/^ * The class name and database used in CakePHP's$/;"	c
+name	Controller/ContactsController.php	/^    public $name = 'Contacts';$/;"	v
+name	Plugin/Migrations/Config/Migration/002_convert_version_to_class_names.php	/^ * Upgrade records, setting version as class name$/;"	c
+name	Plugin/Migrations/Console/Command/MigrationShell.php	/^					foreach ($fields as $name => $col) {$/;"	v
+name	Plugin/Migrations/Console/Command/MigrationShell.php	/^				$name = $this->in(__d('migrations', 'Please enter the descriptive name of the migration to generate:'));$/;"	v
+name	Plugin/Migrations/Console/Command/MigrationShell.php	/^				$name = str_replace(' ', '_', trim($name));$/;"	v
+name	Plugin/Migrations/Console/Command/MigrationShell.php	/^			$name = $this->_promptForMigrationName();$/;"	v
+name	Plugin/Migrations/Console/Command/MigrationShell.php	/^			$name = $this->params['schema-class'];$/;"	v
+name	Plugin/Migrations/Console/Command/MigrationShell.php	/^			$name = $this->type;$/;"	v
+name	Plugin/Migrations/Console/Command/MigrationShell.php	/^			$name = Inflector::camelize($appDir) . 'Schema';$/;"	v
+name	Plugin/Migrations/Console/Command/MigrationShell.php	/^			$name = substr($name, 0, -6);$/;"	v
+name	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$name = $migrationName;$/;"	v
+name	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$name = $this->_getSchemaClassName($type);$/;"	v
+name	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$name = Inflector::camelize($name);$/;"	v
+name	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$name = preg_replace('\/[^a-zA-Z0-9]\/', '', $name);$/;"	v
+name	Plugin/Migrations/Console/Command/MigrationShell.php	/^		foreach ($fields as $name => $value) {$/;"	v
+name	Plugin/Migrations/Console/Command/MigrationShell.php	/^ * @param bool $suffix Return the class name with or without the "Schema" suffix, default is true$/;"	c
+name	Plugin/Migrations/Console/Command/MigrationShell.php	/^ * @return string Returns the schema class name$/;"	c
+name	Plugin/Migrations/Console/Command/MigrationShell.php	/^ * Gets the schema class name$/;"	c
+name	Plugin/Migrations/Lib/MigrationVersion.php	/^ * @param string $class Migration class name$/;"	c
+name	Plugin/Migrations/Test/test_app/Plugin/TestMigrationPlugin/Config/Schema/Schema.php	/^	public $name = 'TestMigrationPluginSchema';$/;"	v
+name	Plugin/Migrations/Test/test_app/Plugin/TestMigrationPlugin4/Config/Schema/schema.php	/^	public $name = 'TestMigrationPlugin4Schema';$/;"	v
+names	Plugin/Migrations/Config/Migration/003_increase_class_name_length.php	/^	public $description = 'Increase the maximum length of class names.';$/;"	c
+needsUpgrade	Plugin/Migrations/Config/Migration/002_convert_version_to_class_names.php	/^	public function needsUpgrade() {$/;"	f
+newSchema	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$newSchema = $this->_readSchema();$/;"	v
+newTables	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$newTables = array('posts' => array());$/;"	v
+newTables	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$newTables = array('users' => array());$/;"	v
+newlines	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^	public function out($message = null, $newlines = 1, $level = 1) {$/;"	v
+next	Plugin/Migrations/Lib/MigrationVersion.php	/^			$next = $flipped[$targetVersion + 1];$/;"	v
+null	Plugin/Migrations/Lib/CakeMigration.php	/^		$null = null;$/;"	v
+oldMap	Plugin/Migrations/Lib/MigrationVersion.php	/^		$oldMap = $this->_enumerateOldMigrations($type);$/;"	v
+oldName	Plugin/Migrations/Lib/CakeMigration.php	/^		foreach ($tables as $oldName => $newName) {$/;"	v
+oldSchema	Plugin/Migrations/Console/Command/MigrationShell.php	/^			$oldSchema = $this->_getSchema($this->type);$/;"	v
+oldTables	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$oldTables = array('posts' => $this->tables['posts']);$/;"	v
+oldTables	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$oldTables = array('posts' => $this->tables['posts'], 'users' => $this->tables['users']);$/;"	v
+oldTables	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$oldTables = array('users' => $this->tables['users']);$/;"	v
+oldTables	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$oldTables = array();$/;"	v
+once	Plugin/Migrations/Console/Command/MigrationShell.php	/^			$once = true;$/;"	v
+once	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$once = false; \/\/In case of exception run shell again (all, reset, migration number)$/;"	v
+options	Plugin/Migrations/Console/Command/MigrationShell.php	/^			$options = $this->_promptVersionOptions($mapping, $latestVersion);$/;"	v
+options	Plugin/Migrations/Console/Command/MigrationShell.php	/^			$options = $this->_singleStepOptions($mapping, $latestVersion, $options);$/;"	v
+options	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$options = $default;$/;"	v
+options	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$options = array($/;"	v
+options	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$options = array();$/;"	v
+options	Plugin/Migrations/Lib/CakeMigration.php	/^		$options = array_merge($defaults, $options);$/;"	v
+options	Plugin/Migrations/Lib/MigrationVersion.php	/^		$options = array_merge($defaults, $options);$/;"	v
+options	Plugin/Migrations/Lib/MigrationVersion.php	/^	public function getMigration($name, $class, $type, $options = array()) {$/;"	v
+options	Plugin/Migrations/Test/Case/Lib/MigrationVersionTest.php	/^		$options = array($/;"	v
+options	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^		$options = ConnectionManager::getDataSource('test')->config;$/;"	v
+order	Plugin/Migrations/Lib/CakeMigration.php	/^		$order = array('drop_table', 'rename_table', 'create_table', 'drop_field', 'rename_field', 'alter_field', 'create_field');$/;"	v
+out	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$out = $this->getMock('ConsoleOutput', array(), array(), '', false);$/;"	v
+out	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^	public function out($message = null, $newlines = 1, $level = 1) {$/;"	f
+outdated	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$outdated = (isset($this->args[0]) && $this->args[0] === 'outdated');$/;"	v
+output	Plugin/Migrations/Lib/Panel/MigrationsPanel.php	/^	public $output = '';$/;"	v
+output	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^	public $output = '';$/;"	v
+page	Controller/PagesController.php	/^			$page = $path[0];$/;"	v
+page	Controller/PagesController.php	/^		$page = $subpage = $title_for_layout = null;$/;"	v
+parser	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$parser = parent::getOptionParser();$/;"	v
+parts	Plugin/Migrations/Lib/MigrationVersion.php	/^			$parts = explode('_', $file);$/;"	v
+path	Controller/PagesController.php	/^		$path = func_get_args();$/;"	v
+path	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$this->path = $this->_getPath() . 'Config' . DS . 'Migration' . DS;$/;"	v
+path	Plugin/Migrations/Console/Command/MigrationShell.php	/^	public $path;$/;"	v
+path	Plugin/Migrations/Lib/MigrationVersion.php	/^			$path = CakePlugin::path(Inflector::camelize($type)) . 'Config' . DS . 'Migration' . DS;$/;"	v
+path	Plugin/Migrations/Lib/MigrationVersion.php	/^		$path = APP . 'Config' . DS . 'Migration' . DS;$/;"	v
+pattern	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$pattern = <<<TEXT$/;"	v
+plugin	Plugin/Migrations/Console/Command/MigrationShell.php	/^			$plugin = ($this->type === 'app') ? null : $this->type;$/;"	v
+plugin	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$plugin = ($type === 'app') ? null : $type;$/;"	v
+plugin	Plugin/Migrations/Lib/Panel/MigrationsPanel.php	/^	public $plugin = 'migrations';$/;"	v
+plugins	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$plugins = $this->plugins = App::path('plugins');$/;"	v
+posts	Plugin/Migrations/Test/test_app/Plugin/TestMigrationPlugin4/Config/Schema/schema.php	/^	public $posts = array($/;"	v
+precheck	Plugin/Migrations/Lib/MigrationVersion.php	/^			$this->precheck = $options['precheck'];$/;"	v
+precheck	Plugin/Migrations/Lib/MigrationVersion.php	/^	public $precheck = 'Migrations.PrecheckException';$/;"	v
+prefix	Config/core.php	/^$prefix = 'myapp_';$/;"	v
+prefix	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^		$prefix = 'prefix_';$/;"	v
+present	Plugin/Migrations/Config/Migration/002_convert_version_to_class_names.php	/^			\/\/ Migration file and class present? If not, will throw an exception$/;"	c
+read	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$read = $this->Schema->read(array('models' => !$this->params['force']));$/;"	v
+records	Plugin/Migrations/Config/Migration/002_convert_version_to_class_names.php	/^		$this->records = $this->Version->Version->find('all');$/;"	v
+records	Plugin/Migrations/Config/Migration/002_convert_version_to_class_names.php	/^		$this->records = array();$/;"	v
+records	Plugin/Migrations/Config/Migration/002_convert_version_to_class_names.php	/^	public $records = array();$/;"	v
+records	Plugin/Migrations/Test/Fixture/SchemaMigrationsFixture.php	/^	public $records = array($/;"	v
+response	Plugin/Migrations/Console/Command/MigrationShell.php	/^					$response = $this->in(__d('migrations', 'Do you want to compare the database to the schema.php file?'), array('y', 'n'), 'y');$/;"	v
+response	Plugin/Migrations/Console/Command/MigrationShell.php	/^				$response = $this->in(__d('migrations', 'Do you want to compare the schema.php file to the database?'), array('y', 'n'), 'y');$/;"	v
+response	Plugin/Migrations/Console/Command/MigrationShell.php	/^				$response = $this->in(__d('migrations', 'Do you want to generate a dump from the current database?'), array('y', 'n'), 'y');$/;"	v
+response	Plugin/Migrations/Console/Command/MigrationShell.php	/^				$response = $this->in(__d('migrations', 'Please choose which version you want to migrate to. [q]uit or [c]lean.'));$/;"	v
+response	Plugin/Migrations/Console/Command/MigrationShell.php	/^			$response = $this->in(__d('migrations', 'Do you want to mark the migration as successful?. [y]es or [a]bort.'), array('y', 'a'));$/;"	v
+response	Plugin/Migrations/Console/Command/MigrationShell.php	/^			$response = $this->in(__d('migrations', 'Do you want to update the schema.php file?'), array('y', 'n'), 'y');$/;"	v
+response	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$response = $this->in(__d('migrations', 'Do you want to preview the file before generation?'), array('y', 'n'), 'y');$/;"	v
+responsible	Config/core.php	/^ * - `renderer` - string - The class responsible for rendering uncaught exceptions. If you choose a custom class you$/;"	c
+result	Plugin/Migrations/Console/Command/MigrationShell.php	/^			$result = $this->Version->run($options);$/;"	v
+result	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$result = $this->_execute($options, $once);$/;"	v
+result	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$result = true;$/;"	v
+result	Plugin/Migrations/Lib/CakeMigration.php	/^				$result = $this->{$methodName}($type, $info);$/;"	v
+result	Plugin/Migrations/Lib/CakeMigration.php	/^			$result = $this->_run();$/;"	v
+result	Plugin/Migrations/Lib/CakeMigration.php	/^		$result = true;$/;"	v
+result	Plugin/Migrations/Lib/MigrationVersion.php	/^					$result = $migration->run($direction, $options);$/;"	v
+result	Plugin/Migrations/Lib/MigrationVersion.php	/^			$result = $this->Version->deleteAll($conditions);$/;"	v
+result	Plugin/Migrations/Lib/MigrationVersion.php	/^			$result = $this->Version->save(array($/;"	v
+result	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$result = $this->Shell->fromComparison(array(), $comparison, $oldTables, $currentTables);$/;"	v
+result	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$result = $this->Shell->fromComparison(array(), $comparison, $oldTables, $newTables);$/;"	v
+result	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$result = $this->Shell->fromComparison(array(), $comparison, $oldTables, $this->tables);$/;"	v
+result	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$result = $this->Shell->output;$/;"	v
+result	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$result = $this->_getMigrationVariable(TMP . 'tests' . DS . '12345_migration_test_file.php');$/;"	v
+result	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$result = $this->_getMigrationVariable(TMP . 'tests' . DS . '12346_migration_test_file.php');$/;"	v
+result	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$result = $this->_getMigrationVariable(current($files));$/;"	v
+result	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$result = array();$/;"	v
+result	Plugin/Migrations/Test/Case/Lib/MigrationVersionTest.php	/^		$result = $this->Version->getMapping('migrations');$/;"	v
+result	Plugin/Migrations/Test/Case/Lib/MigrationVersionTest.php	/^		$result = $this->Version->getMapping('test_migration_plugin');$/;"	v
+result	Plugin/Migrations/Test/Case/Lib/MigrationVersionTest.php	/^		$result = $this->Version->getMigration('001_schema_dump', 'M4af6d40056b04408808500cb58157726', 'test_migration_plugin');$/;"	v
+result	Plugin/Migrations/Test/Case/Lib/MigrationVersionTest.php	/^		$result = $this->Version->getVersion('inexistent_plugin');$/;"	v
+result	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^		$result = $callback->calls['down'];$/;"	v
+result	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^		$result = $callback->calls['up'];$/;"	v
+return	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^		$return = $migration->generateModel('Post');$/;"	v
+return	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^		$return = $migration->generateModel('Post', 'users');$/;"	v
+returnMapping	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^	public function returnMapping() {$/;"	f
+root	Console/cake.php	/^	$root = dirname(dirname(dirname(__FILE__)));$/;"	v
+run	Plugin/Migrations/Console/Command/MigrationShell.php	/^	public function run() {$/;"	f
+run	Plugin/Migrations/Lib/CakeMigration.php	/^	public function run($direction) {$/;"	f
+run	Plugin/Migrations/Lib/MigrationVersion.php	/^	public function run($options) {$/;"	f
+schema	Plugin/Migrations/Config/Migration/002_convert_version_to_class_names.php	/^		$schema = $this->Version->Version->schema();$/;"	v
+schema	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$schema = new $name(array('connection' => $this->connection, 'plugin' => $plugin));$/;"	v
+schema_files	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$schema_files = $folder->find('.*schema.*.php');$/;"	v
+schema_migrations	Config/Schema/schema.php	/^	public $schema_migrations = array($/;"	v
+schema_migrations	Plugin/Migrations/Test/test_app/Plugin/TestMigrationPlugin/Config/Schema/Schema.php	/^	public $schema_migrations = array($/;"	v
+schema_migrations	Plugin/Migrations/Test/test_app/Plugin/TestMigrationPlugin4/Config/Schema/schema.php	/^	public $schema_migrations = array($/;"	v
+setResult	Plugin/Migrations/Test/Case/Lib/MigrationVersionTest.php	/^		$setResult = $this->Version->setVersion(1, 'inexistent_plugin');$/;"	v
+setResult	Plugin/Migrations/Test/Case/Lib/MigrationVersionTest.php	/^		$setResult = $this->Version->setVersion(2, 'inexistent_plugin');$/;"	v
+setResult	Plugin/Migrations/Test/Case/Lib/MigrationVersionTest.php	/^		$setResult = $this->Version->setVersion(2, 'inexistent_plugin', false);$/;"	v
+setUp	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^	public function setUp() {$/;"	f
+setUp	Plugin/Migrations/Test/Case/Lib/MigrationVersionTest.php	/^	public function setUp() {$/;"	f
+setUp	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^	public function setUp() {$/;"	f
+setVersion	Plugin/Migrations/Lib/MigrationVersion.php	/^	public function setVersion($version, $type, $migrated = true) {$/;"	f
+sources	Plugin/Migrations/Test/Case/Lib/Migration/PrecheckConditionTest.php	/^		$sources = $this->db->listSources();$/;"	v
+sources	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^		$sources = $this->db->listSources();$/;"	v
+sql	Plugin/Migrations/Lib/CakeMigration.php	/^							$sql = $this->db->alterSchema(array($/;"	v
+sql	Plugin/Migrations/Lib/CakeMigration.php	/^					$sql = $this->db->createSchema($this->Schema);$/;"	v
+sql	Plugin/Migrations/Lib/CakeMigration.php	/^				$sql = $this->db->dropSchema($this->Schema);$/;"	v
+sql	Plugin/Migrations/Lib/CakeMigration.php	/^				$sql = 'ALTER TABLE ' . $this->db->fullTableName($oldName) . ' RENAME TO ' . $this->db->fullTableName($newName, true, false) . ';';$/;"	v
+sql	Plugin/Migrations/Lib/CakeMigration.php	/^			$sql = $this->db->alterSchema(array($/;"	v
+startup	Plugin/Migrations/Console/Command/MigrationShell.php	/^	public function startup() {$/;"	f
+status	Plugin/Migrations/Console/Command/MigrationShell.php	/^	public function status() {$/;"	f
+subpage	Controller/PagesController.php	/^			$subpage = $path[1];$/;"	v
+suffix	Plugin/Migrations/Console/Command/MigrationShell.php	/^	protected function _getSchemaClassName($name = null, $suffix = true) {$/;"	v
+suite	Plugin/Migrations/Test/Case/AllMigrationsTest.php	/^		$suite = new PHPUnit_Framework_TestSuite('All Migrations Plugin Tests');$/;"	v
+suite	Plugin/Migrations/Test/Case/AllMigrationsTest.php	/^	public static function suite() {$/;"	f
+table	Plugin/Migrations/Console/Command/MigrationShell.php	/^					foreach ($tables as $table => $fields) {$/;"	v
+table	Plugin/Migrations/Console/Command/MigrationShell.php	/^			$table = Inflector::tableize(Inflector::pluralize($matches[2]));$/;"	v
+table	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$table = $cli['table'];$/;"	v
+table	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$table = null;$/;"	v
+table	Plugin/Migrations/Console/Command/MigrationShell.php	/^		foreach ($comparison as $table => $actions) {$/;"	v
+table	Plugin/Migrations/Console/Command/MigrationShell.php	/^		foreach ($oldTables as $table => $fields) {$/;"	v
+table	Plugin/Migrations/Lib/CakeMigration.php	/^								$table => array('add' => array($field => $col))$/;"	v
+table	Plugin/Migrations/Lib/CakeMigration.php	/^								$table => array('change' => array($field => $def))$/;"	v
+table	Plugin/Migrations/Lib/CakeMigration.php	/^								$table => array('change' => array($field => array_merge($data, array('name' => $col))))$/;"	v
+table	Plugin/Migrations/Lib/CakeMigration.php	/^								$table => array('drop' => array($field => array()))$/;"	v
+table	Plugin/Migrations/Lib/CakeMigration.php	/^				$table => array($type => array('indexes' => array($key => $index)))$/;"	v
+table	Plugin/Migrations/Lib/CakeMigration.php	/^			$table = Inflector::tableize($name);$/;"	v
+table	Plugin/Migrations/Lib/CakeMigration.php	/^		foreach ($tables as $table => $fields) {$/;"	v
+table	Plugin/Migrations/Lib/CakeMigration.php	/^	public function generateModel($name, $table = null, $options = array()) {$/;"	v
+tableExists	Plugin/Migrations/Lib/Migration/PrecheckBase.php	/^	public function tableExists($table) {$/;"	f
+tableFields	Plugin/Migrations/Lib/CakeMigration.php	/^				$tableFields = $this->db->describe($model);$/;"	v
+tables	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$tables = $cli['tables'];$/;"	v
+tables	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$tables = array();$/;"	v
+tables	Plugin/Migrations/Lib/Migration/PrecheckBase.php	/^		$tables = $this->_migration->db->listSources();$/;"	v
+tables	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^	public $tables = array($/;"	v
+tables	Plugin/Migrations/Test/Case/Lib/Migration/PrecheckConditionTest.php	/^	public $tables = array($/;"	v
+tables	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^	public $tables = array($/;"	v
+targetVersion	Plugin/Migrations/Lib/MigrationVersion.php	/^			$targetVersion = $keys[$next];$/;"	v
+targetVersion	Plugin/Migrations/Lib/MigrationVersion.php	/^			$targetVersion = $options['version'];$/;"	v
+targetVersion	Plugin/Migrations/Lib/MigrationVersion.php	/^		$targetVersion = $latestVersion = $this->getVersion($options['type']);$/;"	v
+tearDown	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^	public function tearDown() {$/;"	f
+tearDown	Plugin/Migrations/Test/Case/Lib/MigrationVersionTest.php	/^	public function tearDown() {$/;"	f
+test	Config/database.php	/^	public $test = array($/;"	v
+testAlterAndRenameField	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^	public function testAlterAndRenameField() {$/;"	f
+testAlterField	Plugin/Migrations/Test/Case/Lib/Migration/PrecheckConditionTest.php	/^	public function testAlterField() {$/;"	f
+testAlterField	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^	public function testAlterField() {$/;"	f
+testAlterFieldLength	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^	public function testAlterFieldLength() {$/;"	f
+testAlterFieldType	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^	public function testAlterFieldType() {$/;"	f
+testAlterIndex	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^	public function testAlterIndex() {$/;"	f
+testCallbacks	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^	public function testCallbacks() {$/;"	f
+testCreateDropField	Plugin/Migrations/Test/Case/Lib/Migration/PrecheckConditionTest.php	/^	public function testCreateDropField() {$/;"	f
+testCreateDropField	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^	public function testCreateDropField() {$/;"	f
+testCreateDropIndex	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^	public function testCreateDropIndex() {$/;"	f
+testCreateDropTable	Plugin/Migrations/Test/Case/Lib/Migration/PrecheckConditionTest.php	/^	public function testCreateDropTable() {$/;"	f
+testCreateDropTable	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^	public function testCreateDropTable() {$/;"	f
+testFromComparisonFieldActions	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^	public function testFromComparisonFieldActions() {$/;"	f
+testFromComparisonTableActions	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^	public function testFromComparisonTableActions() {$/;"	f
+testGenerate	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^	public function testGenerate() {$/;"	f
+testGenerate2	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^	public function testGenerate2() {$/;"	f
+testGenerateComparison	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^	public function testGenerateComparison() {$/;"	f
+testGenerateDump	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^	public function testGenerateDump() {$/;"	f
+testGenerateFromCliParamsAddFields	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^	public function testGenerateFromCliParamsAddFields() {$/;"	f
+testGenerateFromCliParamsCreateTable	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^	public function testGenerateFromCliParamsCreateTable() {$/;"	f
+testGenerateFromCliParamsDropTable	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^	public function testGenerateFromCliParamsDropTable() {$/;"	f
+testGenerateFromCliParamsRemoveFields	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^	public function testGenerateFromCliParamsRemoveFields() {$/;"	f
+testGenerateInverseComparison	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^	public function testGenerateInverseComparison() {$/;"	f
+testGenerateModel	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^	public function testGenerateModel() {$/;"	f
+testGetMapping	Plugin/Migrations/Test/Case/Lib/MigrationVersionTest.php	/^	public function testGetMapping() {$/;"	f
+testGetMigration	Plugin/Migrations/Test/Case/Lib/MigrationVersionTest.php	/^	public function testGetMigration() {$/;"	f
+testInitialTableCreation	Plugin/Migrations/Test/Case/Lib/MigrationVersionTest.php	/^	public function testInitialTableCreation() {$/;"	f
+testMigrationStatus	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^	public function testMigrationStatus() {$/;"	f
+testRenameField	Plugin/Migrations/Test/Case/Lib/Migration/PrecheckConditionTest.php	/^	public function testRenameField() {$/;"	f
+testRenameField	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^	public function testRenameField() {$/;"	f
+testRenameTable	Plugin/Migrations/Test/Case/Lib/Migration/PrecheckConditionTest.php	/^	public function testRenameTable() {$/;"	f
+testRenameTable	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^	public function testRenameTable() {$/;"	f
+testRun	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^	public function testRun() {$/;"	f
+testRun	Plugin/Migrations/Test/Case/Lib/MigrationVersionTest.php	/^	public function testRun() {$/;"	f
+testRunDownWithPrefix	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^	public function testRunDownWithPrefix() {$/;"	f
+testRunInvalidSyntaxes	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^	public function testRunInvalidSyntaxes() {$/;"	f
+testRunWithFailuresNotOnce	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^	public function testRunWithFailuresNotOnce() {$/;"	f
+testRunWithFailuresOnce	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^	public function testRunWithFailuresOnce() {$/;"	f
+testSetGetVersion	Plugin/Migrations/Test/Case/Lib/MigrationVersionTest.php	/^	public function testSetGetVersion() {$/;"	f
+testStartup	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^	public function testStartup() {$/;"	f
+testTruncateLongIndexKey	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^	public function testTruncateLongIndexKey() {$/;"	f
+testWriteMigration	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^	public function testWriteMigration() {$/;"	f
+testWriteMigrationIndexesOnly	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^	public function testWriteMigrationIndexesOnly() {$/;"	f
+thanks	Controller/ContactsController.php	/^    public function thanks()$/;"	f
+that	Plugin/Migrations/Lib/CakeMigration.php	/^ * Callback class that will be called before\/after every action$/;"	c
+time	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$time = gmdate('U');$/;"	v
+title	Plugin/Migrations/Lib/Panel/MigrationsPanel.php	/^	public $title = 'Migrations';$/;"	v
+title_for_layout	Controller/PagesController.php	/^			$title_for_layout = Inflector::humanize($path[$count - 1]);$/;"	v
+to	Config/core.php	/^ * - 'cache' - Use the Cache class to save sessions.$/;"	c
+to	Plugin/Migrations/Console/Command/MigrationsShell.php	/^ * A proxy class to use the new CakePHP 2.7.x shell shortcut feature.$/;"	c
+type	Plugin/Migrations/Config/Migration/002_convert_version_to_class_names.php	/^			$type = $record[$this->Version->Version->alias]['type'];$/;"	v
+type	Plugin/Migrations/Console/Command/MigrationShell.php	/^				$type = 'datetime';$/;"	v
+type	Plugin/Migrations/Console/Command/MigrationShell.php	/^				$type = 'integer';$/;"	v
+type	Plugin/Migrations/Console/Command/MigrationShell.php	/^				$type = 'string';$/;"	v
+type	Plugin/Migrations/Console/Command/MigrationShell.php	/^				$type = Inflector::underscore($name);$/;"	v
+type	Plugin/Migrations/Console/Command/MigrationShell.php	/^				if ($type === 'create_table' || $type === 'create_field' || $type === 'alter_field') {$/;"	v
+type	Plugin/Migrations/Console/Command/MigrationShell.php	/^			$this->type = $this->params['plugin'];$/;"	v
+type	Plugin/Migrations/Console/Command/MigrationShell.php	/^			$type = $this->_getFieldType($field, $type, $validTypes);$/;"	v
+type	Plugin/Migrations/Console/Command/MigrationShell.php	/^			$type = $this->type;$/;"	v
+type	Plugin/Migrations/Console/Command/MigrationShell.php	/^			$type = empty($matches[2]) ? null : $matches[2];$/;"	v
+type	Plugin/Migrations/Console/Command/MigrationShell.php	/^			foreach ($actions as $type => $fields) {$/;"	v
+type	Plugin/Migrations/Console/Command/MigrationShell.php	/^			foreach ($actions as $type => $tables) {$/;"	v
+type	Plugin/Migrations/Console/Command/MigrationShell.php	/^	protected function _showInfo($mapping, $type = null) {$/;"	v
+type	Plugin/Migrations/Console/Command/MigrationShell.php	/^	public $type = 'app';$/;"	v
+type	Plugin/Migrations/Lib/CakeMigration.php	/^					$type = 'add';$/;"	v
+type	Plugin/Migrations/Lib/CakeMigration.php	/^					$type = 'change';$/;"	v
+type	Plugin/Migrations/Lib/CakeMigration.php	/^					$type = 'drop';$/;"	v
+type	Plugin/Migrations/Lib/CakeMigration.php	/^					$type = 'rename';$/;"	v
+type	Plugin/Migrations/Lib/CakeMigration.php	/^		foreach ($this->migration[$this->direction] as $type => $info) {$/;"	v
+type	Plugin/Migrations/Lib/MigrationVersion.php	/^			$type = Inflector::camelize($type);$/;"	v
+types	Plugin/Migrations/Config/Migration/002_convert_version_to_class_names.php	/^		$types = $plugins = array_unique($types);$/;"	v
+types	Plugin/Migrations/Config/Migration/002_convert_version_to_class_names.php	/^		$types = Hash::extract($this->records, '{n}.' . $this->Version->Version->alias . '.type');$/;"	v
+types	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$types = CakePlugin::loaded();$/;"	v
+uniqueAuthorTitle	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^		$uniqueAuthorTitle = array('column' => array(0 => 'author_id', 1 => 'title'), 'unique' => 1);$/;"	v
+upgradeRecords	Plugin/Migrations/Config/Migration/002_convert_version_to_class_names.php	/^	public function upgradeRecords() {$/;"	f
+users	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^		$users = $this->tables['users'];$/;"	v
+users	Plugin/Migrations/Test/test_app/Plugin/TestMigrationPlugin4/Config/Schema/schema.php	/^	public $users = array($/;"	v
+uses	Controller/ContactsController.php	/^    public $uses = array('Contact');$/;"	v
+uses	Controller/PagesController.php	/^	public $uses = array();$/;"	v
+v	Plugin/Migrations/Lib/Panel/MigrationsPanel.php	/^		$v = new MigrationVersion();$/;"	v
+valid	Plugin/Migrations/Console/Command/MigrationShell.php	/^				$valid = is_numeric($response) && isset($mapping[(int)$response]);$/;"	v
+valid	Plugin/Migrations/Console/Command/MigrationShell.php	/^			$valid = isset($mapping[$options['version']]) || ($options['version'] === 0 && $latestVersion > 0);$/;"	v
+validTypes	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$validTypes = array_keys($db->columns);$/;"	v
+validate	Model/Contact.php	/^    public $validate = array($/;"	v
+value	Plugin/Migrations/Console/Command/MigrationShell.php	/^					$value = var_export($value, true);$/;"	v
+value	Plugin/Migrations/Lib/MigrationVersion.php	/^		$value = $bc ? $version : $mapping[$version]['class'];$/;"	v
+vendorPath	webroot/index.php	/^$vendorPath = ROOT . DS . APP_DIR . DS . 'Vendor' . DS . 'cakephp' . DS . 'cakephp' . DS . 'lib';$/;"	v
+vendorPath	webroot/test.php	/^$vendorPath = ROOT . DS . APP_DIR . DS . 'Vendor' . DS . 'cakephp' . DS . 'cakephp' . DS . 'lib';$/;"	v
+version	Plugin/Migrations/Config/Migration/002_convert_version_to_class_names.php	/^			$version = $record[$this->Version->Version->alias]['version'];$/;"	v
+version	Plugin/Migrations/Console/Command/MigrationShell.php	/^				$version = $this->Version->getVersion($type);$/;"	v
+version	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$version = $this->Version->getVersion($type);$/;"	v
+version	Plugin/Migrations/Console/Command/MigrationShell.php	/^		foreach ($mapping as $version => $info) {$/;"	v
+version	Plugin/Migrations/Lib/MigrationVersion.php	/^			$version = array_shift($parts);$/;"	v
+version	Plugin/Migrations/Lib/MigrationVersion.php	/^			foreach ($mapping as $version => $info) {$/;"	v
+version	Plugin/Migrations/Lib/MigrationVersion.php	/^		foreach ($mapping as $version => $info) {$/;"	v
+version	Plugin/Migrations/Lib/MigrationVersion.php	/^		foreach ($mapping as $version => $migration) {$/;"	v
+versionNumber	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$versionNumber = isset($flipped[$latestVersion]) ? $flipped[$latestVersion] : -1;$/;"	v
+versions	Plugin/Migrations/Console/Command/MigrationShell.php	/^		$versions = array_keys($mapping);$/;"	v
+viewCount	Plugin/Migrations/Test/Case/Lib/Model/CakeMigrationTest.php	/^		$viewCount = array('column' => 'views', 'unique' => 0);$/;"	v
+writeMigration	Plugin/Migrations/Test/Case/Console/Command/MigrationShellTest.php	/^	public function writeMigration($name, $class, $migration) {$/;"	f
