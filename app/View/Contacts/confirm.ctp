@@ -27,7 +27,10 @@
     </tbody>
 </table>
 
-<p class="buttons">
-    <button type="button" onclick="location.href='/cakephp_form/contacts'">戻る</button>
-    <input type="submit" onclick="location.href='thanks'"value="送信する">
-</p>
+<form action="thanks" method="post">
+    <p class="buttons">
+        <button type="button" onclick="location.href='/cakephp_form/contacts'">戻る</button>
+        <input type="submit" value="送信する">
+    </p>
+</form>
+

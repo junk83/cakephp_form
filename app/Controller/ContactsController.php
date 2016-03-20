@@ -42,11 +42,16 @@ class ContactsController extends AppController
             //セッションのデータをviewにセット
             $this->set('datas', $this->Session->read('datas'));
         }
+        else
+        {
+            //フォームにデータが入力されていない場合はindexにリダイレクト
+            $this->redirect('/contacts/');
+        }
     }
 
     public function thanks()
     {
-        if($this->Session->check('datas'))
+        if($this->request->is('post') && $this->Session->check('datas'))
         {
             $datas = $this->Session->read('datas');
             //セッションを削除する
@@ -60,6 +65,11 @@ class ContactsController extends AppController
             );
             //DB登録
             $this->Contact->save($data);
+        }
+        else
+        {
+            //thanksを直叩きされた場合はindexにリダイレクト
+            $this->redirect('/contacts/');
         }
     }
 
